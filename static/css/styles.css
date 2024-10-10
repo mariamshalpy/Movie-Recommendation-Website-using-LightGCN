@@ -1,0 +1,64 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* Prevents scrolling */
+}
+
+body {
+    background-color: #f8f9fa;
+    /* Fallback color */
+    background-image: url('/static/images/background.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* Keeps the background fixed while scrolling */
+    color: #ffffff;
+    /* Changed default text color to white for better visibility */
+}
+
+.container {
+    height: 100vh;
+    /* Full viewport height */
+    overflow-y: auto;
+    /* Allows scrolling within the container if needed */
+}
+
+h1 {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Adds shadow for better readability */
+}
+
+label {
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    /* Adds shadow for better readability */
+}
+
+.table {
+    color: #000000;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Semi-transparent white background */
+}
+
+/* Ensuring form elements are visible */
+.form-control {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000000;
+}
+
+/* Style for the submit button */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
